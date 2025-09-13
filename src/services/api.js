@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://furshield-backend.up.railway.app/api/v1'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://fur-shield-backend-8l8qw088j.vercel.app/api/v1'
 const api = axios.create({
   baseURL: API_BASE_URL,
   withCredentials: true,

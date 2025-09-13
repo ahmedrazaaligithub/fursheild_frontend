@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://furshield-backend.up.railway.app';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://fur-shield-backend-8l8qw088j.vercel.app';
 export const getImageUrl = (imagePath) => {
   if (!imagePath) {
     return `${API_BASE_URL}/public/default-avatar.svg`;

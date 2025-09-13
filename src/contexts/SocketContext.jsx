@@ -11,7 +11,7 @@ export const SocketProvider = ({ children }) => {
   const { user, token } = useAuth()
   useEffect(() => {
     if (user && token) {
-      const socketInstance = io(import.meta.env.VITE_SOCKET_URL || 'https://furshield-backend.up.railway.app', {
+      const socketInstance = io(import.meta.env.VITE_SOCKET_URL || 'https://fur-shield-backend-8l8qw088j.vercel.app', {
         auth: {
           token: token
         }
